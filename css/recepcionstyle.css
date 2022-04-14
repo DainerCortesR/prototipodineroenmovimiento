@@ -9,7 +9,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #E0E0E0;
+    background-image: linear-gradient(rgba(229, 229, 229, 1), rgba(171, 171, 171, 1));
     background-size: cover;
     font-family: sans-serif;
    height: 100vh;
@@ -81,14 +81,14 @@
   
   main {
     width: 700px;
-    height: 680px;
+    height: 700px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
   }
   
   .formulario-recepcion {
-    height: 680px;
+    height: 700px;
     background: white;
     color: black;
     top: 50%;
@@ -111,7 +111,7 @@
  
   .formulario-recepcion label {
     margin: 0;
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 0;
     font-weight: bold;
     display: block;
@@ -128,6 +128,18 @@
   color: black;
   font-size: 16px;
   }
+
+  .formulario-recepcion input[type="text1"] {
+    margin: 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    }
 
   .formulario-recepcion input[type="button"] {
     width: 100%;
